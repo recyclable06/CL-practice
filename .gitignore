@@ -1,0 +1,37 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Downloaded data and generated training artifacts
+/data/
+/datasets/
+/checkpoints/
+/outputs/
+/runs/
+/wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Local credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.ssh/
+
+# Editor and OS artifacts
+.idea/
+.vscode/
+.ipynb_checkpoints/
+Thumbs.db
+.DS_Store
+
+# Keep small curated metrics, figures, configurations and reports tracked.
