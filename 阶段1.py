@@ -82,12 +82,6 @@ for epoch in range(num_epochs):
     #     print(f"训练后参数1为：{parameter0_epoch0}")
     #     print(f"变化为：{parameter0_epoch0-parameter0}")
 
-
-
-        
-
-    
-
     scheduler.step()
 
     model.eval()
