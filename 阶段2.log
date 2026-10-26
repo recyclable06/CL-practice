@@ -8,15 +8,30 @@ epoch 5/5, loss: 0.1239, eval_loss: 0.1977, eval_acc: 929/1000
 
 当前进入task1, 学习类别[2, 3]
 epoch 1/5, loss: 0.3956, eval_loss: 0.5001, eval_acc: 784/1000
-对上一个task的cache_acc：200/200   ,val_acc： 593/1000
+对已有task的cache_acc：200/200   ,对上一个task的val_acc： 593/1000
 epoch 2/5, loss: 0.2164, eval_loss: 0.4380, eval_acc: 813/1000
-对上一个task的cache_acc：200/200   ,val_acc： 410/1000
+对已有task的cache_acc：200/200   ,对上一个task的val_acc： 410/1000
 epoch 3/5, loss: 0.1848, eval_loss: 0.4181, eval_acc: 818/1000
-对上一个task的cache_acc：200/200   ,val_acc： 398/1000
+对已有task的cache_acc：200/200   ,对上一个task的val_acc： 398/1000
 epoch 4/5, loss: 0.1597, eval_loss: 0.4134, eval_acc: 835/1000
-对上一个task的cache_acc：200/200   ,val_acc： 493/1000
+对已有task的cache_acc：200/200   ,对上一个task的val_acc： 493/1000
 epoch 5/5, loss: 0.1307, eval_loss: 0.4516, eval_acc: 811/1000
-对上一个task的cache_acc：200/200   ,val_acc： 461/1000
+对已有task的cache_acc：200/200   ,对上一个task的val_acc： 461/1000
 第1轮task学习结束，对第0轮task的acc：461/1000 = 0.461, 预测分布为[146, 345, 318, 191, 0, 0, 0, 0, 0, 0]
 第1轮task学习结束，对第1轮task的acc：811/1000 = 0.811, 预测分布为[5, 4, 422, 569, 0, 0, 0, 0, 0, 0]
-CL_task_acc:[[0.929, None], [0.461, 0.811]]
+
+当前进入task2, 学习类别[4, 5]
+epoch 1/5, loss: 0.4836, eval_loss: 0.4797, eval_acc: 803/1000
+对已有task的cache_acc：200/200   ,对上一个task的val_acc： 40/1000
+epoch 2/5, loss: 0.1899, eval_loss: 0.4575, eval_acc: 798/1000
+对已有task的cache_acc：200/200   ,对上一个task的val_acc： 30/1000
+epoch 3/5, loss: 0.1532, eval_loss: 0.4146, eval_acc: 834/1000
+对已有task的cache_acc：200/200   ,对上一个task的val_acc： 11/1000
+epoch 4/5, loss: 0.1296, eval_loss: 0.4330, eval_acc: 829/1000
+对已有task的cache_acc：200/200   ,对上一个task的val_acc： 15/1000
+epoch 5/5, loss: 0.1052, eval_loss: 0.4532, eval_acc: 832/1000
+对已有task的cache_acc：200/200   ,对上一个task的val_acc： 35/1000
+第2轮task学习结束，对第0轮task的acc：293/1000 = 0.293, 预测分布为[97, 220, 36, 2, 390, 255, 0, 0, 0, 0]
+第2轮task学习结束，对第1轮task的acc：35/1000 = 0.035, 预测分布为[3, 2, 33, 3, 368, 591, 0, 0, 0, 0]
+第2轮task学习结束，对第2轮task的acc：832/1000 = 0.832, 预测分布为[0, 0, 12, 0, 452, 536, 0, 0, 0, 0]
+CL_task_acc:[[0.929, None, None], [0.461, 0.811, None], [0.293, 0.035, 0.832]]
